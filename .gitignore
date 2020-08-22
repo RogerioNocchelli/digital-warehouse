@@ -12,3 +12,7 @@ npm-debug.log
 yarn-error.log
 .idea/
 .editorconfig
+.gitattributes
+.styleci.yml
+artisan
+phpunit.xml
