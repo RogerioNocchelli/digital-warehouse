@@ -14,7 +14,7 @@ git@github.com:RogerioNocchelli/git@github.com:RogerioNocchelli/digital-warehous
 ```bash
 cd digital-warehouse/
 ```
-4 - Composer Install
+3 - Composer Install
 
 ```bash
 composer install
