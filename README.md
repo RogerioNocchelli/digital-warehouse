@@ -25,7 +25,6 @@ composer install
 ```bash
 npm install
 ```
-## Database
 
 5 - Adjust the access data to the MySql database in the .env file located at the root of the project.
 
