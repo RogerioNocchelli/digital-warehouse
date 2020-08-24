@@ -25,7 +25,7 @@ class DriversController extends Controller
      */
     public function index(Request $request)
     {
-        $drivers = Drivers::query()->orderBy('name')->get();
+        $drivers = Drivers::query()->paginate(4);
 
         $message = $request->session()->get('message');
 

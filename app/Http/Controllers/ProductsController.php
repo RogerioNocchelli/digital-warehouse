@@ -26,7 +26,7 @@ class ProductsController extends Controller
      */
     public function index(Request $request)
     {
-        $products = Products::query()->orderBy('name')->get();
+        $products = Products::query()->paginate(4);
 
         $message = $request->session()->get('message');
 
