@@ -6,3 +6,11 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+//Layout
+@import "layout/layout";
+@import "layout/nav";
+@import "layout/home";
+
+@import "driver";
+@import "discharges";

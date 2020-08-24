@@ -1,0 +1,20 @@
+.logo-home {
+    display: flex;
+    justify-content: center;
+
+    img {
+        opacity: 0.40;
+    }
+}
+
+.row {
+    @media (min-width: 900px) {
+        margin-top: 15px;
+    }
+}
+
+label {
+    @media (max-width: 890px) {
+        margin-top: 10px;
+    }
+}

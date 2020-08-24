@@ -1,0 +1,25 @@
+.add-drive-btn {
+    float:right;
+
+    @media (max-width: 800px) {
+        margin: 10px;
+    }
+}
+
+.driver-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.block-situation-register {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

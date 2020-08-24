@@ -2,21 +2,10 @@
 
 @section('content')
 <div class="container">
+    <h3 class="title-page">Olá, {{ Auth::user()->name }}</h3>
     <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
-
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    {{ __('You are logged in!') }}
-                </div>
-            </div>
+        <div class="col-md-12 logo-home">
+            <img src="/img/icon.png">
         </div>
     </div>
 </div>
