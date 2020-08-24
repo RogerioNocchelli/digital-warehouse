@@ -25,7 +25,7 @@ class CarsController extends Controller
      */
     public function index(Request $request)
     {
-        $cars = Cars::query()->orderBy('vehicle_model')->get();
+        $cars = Cars::query()->paginate(4);
 
         $message = $request->session()->get('message');
 

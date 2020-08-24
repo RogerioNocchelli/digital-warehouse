@@ -48,6 +48,9 @@
                         @endforeach
                     </tbody>
                 </table>
+                <div class="paginator">
+                    {{ $drivers->links() }}
+                </div>
             </div>
         </div>
     </div>

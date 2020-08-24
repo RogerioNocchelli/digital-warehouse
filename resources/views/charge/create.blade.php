@@ -15,7 +15,7 @@
             @csrf
             <div class="row">
                 <div class="col-md-5">
-                    <label for="">Selecione o motorista</label>
+                    <label for="">Selecione o motorista <small>(confira o número do CPF ao lado do nome)</small></label>
                     <select class="form-control" name="driver_id">
                         <option disabled selected value>Selecione</option>
                         @foreach($drivers as $driver)
@@ -24,10 +24,11 @@
                             @endif
                         @endforeach
                     </select>
+                    <a href="/motoristas/criar">Adicionar</a>
                 </div>
 
                 <div class="col-md-5">
-                    <label for="">Selecione o veiculo</label>
+                    <label for="">Selecione o veiculo <small>(confira a placa do veículo)</small></label>
                     <select class="form-control" name="car_id">
                         <option disabled selected value>Selecione</option>
                         @foreach($cars as $car)
@@ -36,6 +37,7 @@
                             @endif
                         @endforeach
                     </select>
+                    <a href="/veiculos/criar">Adicionar</a>
                 </div>
 
                 <div class="col-md-2">
@@ -48,6 +50,7 @@
                             @endif
                         @endforeach
                     </select>
+                    <a href="/produtos/criar">Adicionar</a>
                 </div>
             </div>
 

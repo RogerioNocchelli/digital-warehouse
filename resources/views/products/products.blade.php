@@ -40,6 +40,9 @@
                         @endforeach
                     </tbody>
                 </table>
+                <div class="paginator">
+                    {{ $products->links() }}
+                </div>
             </div>
         </div>
     </div>
