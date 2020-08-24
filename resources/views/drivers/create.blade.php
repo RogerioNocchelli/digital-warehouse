@@ -37,7 +37,6 @@
                     </div>
                 </div>
 
-
                 <div class="row">
                     <div class="col-md-8">
                         <label>Rua *</label>
@@ -71,12 +70,29 @@
                     <span>* Campos obrigatórios.</span>
                 </div>
 
-
                 <button class="btn btn-primary add-drive-btn">Adicionar</button>
             </form>
     </div>
+
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/drivers.js') }}"></script>
+    <script src="https://rawgit.com/RobinHerbots/Inputmask/3.x/dist/jquery.inputmask.bundle.js"></script>
+    <script>
+        $("#document_number").inputmask({
+            mask: ['999.999.999-99'],
+            keepStatic: true
+        });
+
+        $("#phone_number").inputmask({
+            mask: ["(99) 9999-9999", "(99) 99999-9999"],
+            keepStatic: true
+        });
+
+        $("#zip_code").inputmask({
+            mask: ["99-999.999"],
+            keepStatic: true
+        });
+    </script>
 @endsection
 
-<script src="{{ asset('js/jquery.mask.min.js') }}"></script>
-<script src="{{ asset('js/app.js') }}"></script>
-<script src="{{ asset('js/drivers.js') }}"></script>
+
