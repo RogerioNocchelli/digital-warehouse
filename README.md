@@ -60,7 +60,7 @@ docker-compose exec app php artisan migrate
 9 - Access the address
 
 ```bash
-localhost:8800
+http://localhost:8800/
 ```
 
 
