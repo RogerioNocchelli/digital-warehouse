@@ -80,19 +80,25 @@ git@github.com:RogerioNocchelli/digital-warehouse.git
 cd digital-warehouse/
 ```
 
-5 - Compile the image with the following command
+5 - Create the project configuration file
+
+```bash
+vim .env
+```
+
+6 - Compile the image with the following command
 
 ```bash
 docker-compose build app
 ```
 
-6 - Run the environment
+7 - Run the environment
 
 ```bash
 docker-compose up -d
 ```
 
-7 - Run the commands
+8 - Run the commands
 
 ```bash
 docker-compose exec app php artisan key:generate
