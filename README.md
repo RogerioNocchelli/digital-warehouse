@@ -14,7 +14,7 @@ git@github.com:RogerioNocchelli/git@github.com:RogerioNocchelli/digital-warehous
 ```bash
 cd digital-warehouse/
 ```
-4 - Composer Install
+3 - Composer Install
 
 ```bash
 composer install
@@ -43,12 +43,12 @@ composer global require laravel/installer
 ```
 
 
-6 - Execute the migrations
+7 - Execute the migrations
 ```bash
 php artisan migrate
 ```
 
-5 - Start PHP Built-in web server:
+8 - Start PHP Built-in web server:
 
 ```bash
 php -S 127.0.0.1:8089 -t public/
