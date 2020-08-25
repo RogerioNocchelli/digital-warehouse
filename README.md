@@ -89,7 +89,7 @@ docker-compose build app
 6 - Run the environment
 
 ```bash
-docker-compose build app
+docker-compose up -d
 ```
 
 7 - Run the commands
