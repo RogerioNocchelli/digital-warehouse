@@ -6,7 +6,7 @@ Digital Warehouse
 1 - Clone the repo:
 
 ```bash
-git@github.com:RogerioNocchelli/git@github.com:RogerioNocchelli/digital-warehouse.git.git
+git@github.com:RogerioNocchelli/digital-warehouse.git
 ```
 
 2 - Change to the directory created
@@ -71,7 +71,7 @@ composer global require laravel/installer
 3 - Clone the repo:
 
 ```bash
-git@github.com:RogerioNocchelli/git@github.com:RogerioNocchelli/digital-warehouse.git.git
+git@github.com:RogerioNocchelli/digital-warehouse.git
 ```
 
 4 - Change to the directory created
