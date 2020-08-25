@@ -101,6 +101,9 @@ docker-compose up -d
 8 - Run the commands
 
 ```bash
+docker-compose exec app composer install
+```
+```bash
 docker-compose exec app php artisan key:generate
 ```
 ```bash
